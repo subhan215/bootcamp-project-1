@@ -1,4 +1,4 @@
-const abc =  (state , action) => {
+const abc= (state , action) => {
     switch(action.type){
         
         case 'DELETE_TRANSACTION':
@@ -16,5 +16,5 @@ const abc =  (state , action) => {
               return state
     }
 }
-
-   export default abc
+export default abc
+   
